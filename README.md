@@ -4,7 +4,7 @@ date: "11/03/2026"                    # Entre as aspas escreve a data de criaç�
 uri: "https://tmsr.scml.pt/"   # Entre as aspas escreve o domínio do website
 owner: "Santa Casa da Misericórdia"         # Entre as aspas escrever o nome do owner do website
 seal: "Prata"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-status: "Em progresso - A aguardar correções da entidade"                    # Entre aspas escreve o estado do relatório
+status: "A aguardar correções da entidade"                    # Entre aspas escreve o estado do relatório
 ---
 
 # Temporada Música em São Roque
