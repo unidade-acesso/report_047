@@ -7,23 +7,24 @@ seal: "Prata"                          # Entre as aspas escreve Bronze, Prata ou
 status: "A aguardar correções da entidade"                    # Entre aspas escreve o estado do relatório
 ---
 
-# Temporada Música em São Roque
+# Relatório de auditoria
 
-- Data de criação: 11/03/2026
-- URL: https://tmsr.scml.pt/
-- Propriedade: Santa Casa da Misericórdia
-- Candidatura: Prata
+Sítio Web: {{ page.website }} 
 
-## Relatório de Auditoria
+- Data de criação: {{ page.date }}
+- URL: {{ page.uri }} 
+- Propriedade: {{ page.owner }}
+- Candidatura: {{ page.seal }}
+- Validade do Selo: {{ page.validity }}
+- Estado: {{ page.status }}
 
-Consulte aqui a última atualização: [Relatório da Temporada Música em São Roque](report.html)
+## Relatório {{ page.website }}
+
+O presente relatório resultou da auditoria da informação publicada na [Declaração de Acessibilidade e Usabilidade]({{ page.a11y_statement }}).
+
+Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="06042026_report.html">(06/04/2026). Relatório da Temporada Música em São Roque</a></li>
-  </ul>
-</details>
-
-## Declaração de Acessibilidade analisada
-- https://tmsr.scml.pt/declaracao-de-acessibilidade/
+    <li><a href="06042026_report.html">(06/04/2026). Relatório {{ page.website }}</a></li>
